@@ -4,7 +4,6 @@
  *  *main-program entry point.
  *
  *   *Return:0 success, non zero fail
- *
  */
 
 int main(void)
@@ -20,6 +19,7 @@ int main(void)
 	if (i != j)
 {
 	putchar(i);
+
 	putchar(j);
 }
 	if (i == j)
@@ -33,6 +33,7 @@ int main(void)
 	else
 {
 	putchar(',');
+
 	putchar(' ');
 }
 	k++;
